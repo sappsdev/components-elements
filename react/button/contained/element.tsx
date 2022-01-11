@@ -15,7 +15,7 @@ export const AppButton = ({
     return classes.filter(Boolean).join(' ')
   }
   return(
-    <Ripples>
+    <Ripples className="w-full">
     <button 
       onClick={() => onClick()}
       className={classNames(

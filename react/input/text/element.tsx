@@ -26,7 +26,7 @@ export const AppInputText = ({
   }
 
   return(
-    <div className="flex flex-col items-start">
+    <div className="flex flex-col w-full items-start">
       { label && 
         <div className="my-2">
           <label htmlFor={name} 
